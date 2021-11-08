@@ -59,7 +59,7 @@ class _bonuslatihanState extends State<bonuslatihan> {
               child: Text('ATMOSFER'),
               onPressed: () {
                 Navigator.pushReplacement(
-                    context, MaterialPageRoute(builder: (context) => betul1()));
+                    context, MaterialPageRoute(builder: (context) => salah1()));
               },
             ),
             SizedBox(
@@ -84,7 +84,7 @@ class _bonuslatihanState extends State<bonuslatihan> {
                   child: Text('LITOSFER'),
                   onPressed: () {
                     Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (context) => salah1()));
+                        MaterialPageRoute(builder: (context) => betul1()));
                   },
                 ),
               ],

@@ -2,29 +2,32 @@ import 'package:enisageo/model/question_model.dart';
 
 List<QuestionModel> questions = [
   QuestionModel(
-    "Erupsi gunung Merapi merusak lahan pertanian ?",
+    "Pilihlah fenomena berikut ini berdasarkan aspek geografi. Erupsi gunung Merapi merusak lahan pertanian ?",
     {
       "Pendekatan": false,
       "3": false,
-      "Prinsip": true,
+      "Fisik": true,
       "Ekologi": false,
     },
   ),
   QuestionModel(
-      "Terjadi kebakaran di kawasan perumahan elit karena aliran listrik…. ", {
-    "Ekologi": false,
-    "Prinsip": false,
-    "Fisik": false,
-    "Sosial ": true,
-  }),
-  QuestionModel("Selama pandemi COVID-19, mobilitas masyarakat menurun … ", {
-    "Lokasi": false,
-    "Sosial": true,
-    "Deskripsi": false,
-    "Interelasi": false,
-  }),
+      "Pilihlah fenomena berikut ini berdasarkan aspek geografi. Terjadi kebakaran di kawasan perumahan elit karena aliran listrik…. ",
+      {
+        "Ekologi": false,
+        "Prinsip": false,
+        "Fisik": false,
+        "Sosial ": true,
+      }),
   QuestionModel(
-      "Taman Nasional Lorentz memiliki salju abadi yang berada di wilayah tropis … fisik",
+      "Pilihlah fenomena berikut ini berdasarkan aspek geografi. Selama pandemi COVID-19, mobilitas masyarakat menurun … ",
+      {
+        "Lokasi": false,
+        "Sosial": true,
+        "Deskripsi": false,
+        "Interelasi": false,
+      }),
+  QuestionModel(
+      "Pilihlah fenomena berikut ini berdasarkan aspek geografi. Taman Nasional Lorentz memiliki salju abadi yang berada di wilayah tropis … fisik",
       {
         "Pola": false,
         "Lokasi": false,
