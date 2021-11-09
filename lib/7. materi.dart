@@ -19,137 +19,93 @@ class _MateriState extends State<Materi> {
   final CarouselController _controller = CarouselController();
 
   final List<Widget> myData = [
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/0.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/0.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/1.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/1.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/2.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/2.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/3.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/3.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/4.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/4.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/5.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/5.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/6.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/6.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/7.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/7.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/8.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/8.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/9.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/9.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/10.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/10.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/11.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/11.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/12.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/12.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/13.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/13.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/14.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/14.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/15.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/15.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/16.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/16.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/17.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/17.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/18.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/18.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/19.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/19.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/20.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/20.PNG'))),
     ),
-    InteractiveViewer(
-      child: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/MATERI/21.png'))),
-      ),
+    Container(
+      decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/MATERI/21.PNG'))),
     ),
   ];
 
