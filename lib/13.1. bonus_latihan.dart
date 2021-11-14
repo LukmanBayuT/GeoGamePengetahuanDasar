@@ -1,5 +1,3 @@
-import 'package:enisageo/14.%20salah1.dart';
-import 'package:enisageo/15.%20betul1.dart';
 import 'package:enisageo/16.%20salah2.dart';
 import 'package:enisageo/17.%20betul2.dart';
 import 'package:flutter/cupertino.dart';

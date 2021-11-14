@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, unnecessary_import, unused_import
 
 import 'package:enisageo/10.%20tujuan.dart';
+import 'package:enisageo/10.5.%20petakonsep.dart';
 import 'package:enisageo/7.%20materi.dart';
 import 'package:enisageo/8.%20kikd.dart';
 import 'package:enisageo/9.%20penyusun.dart';
@@ -64,19 +65,23 @@ class MapMateri extends StatelessWidget {
                                 image: AssetImage('assets/ALAT/Penyusun.png'))),
                       ),
                     ),
+                    SizedBox(
+                      width: 80,
+                    ),
                     GestureDetector(
                       onTap: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => penyusun()));
+                                builder: (context) => petaKonsep()));
                       },
                       child: Container(
                         height: 200,
-                        width: 225,
+                        width: 175,
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage('assets/ALAT/Penyusun.png'))),
+                                image:
+                                    AssetImage('assets/ALAT/PetaKonsep.png'))),
                       ),
                     ),
                   ],
