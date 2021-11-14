@@ -64,6 +64,21 @@ class MapMateri extends StatelessWidget {
                                 image: AssetImage('assets/ALAT/Penyusun.png'))),
                       ),
                     ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => penyusun()));
+                      },
+                      child: Container(
+                        height: 200,
+                        width: 225,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage('assets/ALAT/Penyusun.png'))),
+                      ),
+                    ),
                   ],
                 ),
                 Row(
