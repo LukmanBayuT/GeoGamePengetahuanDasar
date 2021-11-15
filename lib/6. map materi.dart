@@ -41,14 +41,14 @@ class MapMateri extends StatelessWidget {
                       },
                       child: Container(
                         height: 100,
-                        width: 200,
+                        width: 175,
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage('assets/ALAT/Tujuanx.png'))),
                       ),
                     ),
                     SizedBox(
-                      width: 80,
+                      width: 60,
                     ),
                     GestureDetector(
                       onTap: () {
@@ -59,14 +59,14 @@ class MapMateri extends StatelessWidget {
                       },
                       child: Container(
                         height: 200,
-                        width: 225,
+                        width: 175,
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage('assets/ALAT/Penyusun.png'))),
                       ),
                     ),
                     SizedBox(
-                      width: 80,
+                      width: 60,
                     ),
                     GestureDetector(
                       onTap: () {
@@ -98,7 +98,7 @@ class MapMateri extends StatelessWidget {
                       },
                       child: Container(
                         height: 200,
-                        width: 200,
+                        width: 175,
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image:

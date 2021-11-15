@@ -34,19 +34,20 @@ dependencies:
     sdk: flutter
   google_fonts: ^2.1.0
   page_transition: ^2.0.4
+  url_launcher: ^6.0.12
+  video_player: ^2.2.7
   word_search: ^0.1.2
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.9.2
 
 flutter_icons:
-    android: true
-    ios: true
-    image_path: "assets/ALAT/Smartgeo.png"
-
+  android: true
+  ios: true
+  image_path: "assets/ALAT/Smartgeo.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
